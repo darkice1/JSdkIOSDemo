@@ -14,6 +14,7 @@
 		55E9AA9122C07B6F009A2ED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E9AA8F22C07B6F009A2ED1 /* LaunchScreen.storyboard */; };
 		55E9AA9422C07B6F009A2ED1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E9AA9322C07B6F009A2ED1 /* main.m */; };
 		55E9AA9F22C0BDC1009A2ED1 /* JyAdFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E9AA9E22C0BDC1009A2ED1 /* JyAdFramework.framework */; };
+		B5BB968422C3232700DB2F20 /* 说明文档.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B5BB968322C3232700DB2F20 /* 说明文档.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		55E9AA9222C07B6F009A2ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55E9AA9322C07B6F009A2ED1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		55E9AA9E22C0BDC1009A2ED1 /* JyAdFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JyAdFramework.framework; sourceTree = "<group>"; };
+		B5BB968322C3232700DB2F20 /* 说明文档.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "说明文档.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			children = (
 				55E9AA8322C07B6C009A2ED1 /* JSdkIOSDemo */,
 				55E9AA8222C07B6C009A2ED1 /* Products */,
+				B5BB968322C3232700DB2F20 /* 说明文档.pdf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5BB968422C3232700DB2F20 /* 说明文档.pdf in Resources */,
 				55E9AA9122C07B6F009A2ED1 /* LaunchScreen.storyboard in Resources */,
 				55E9AA8E22C07B6F009A2ED1 /* Assets.xcassets in Resources */,
 				55E9AA8C22C07B6C009A2ED1 /* Main.storyboard in Resources */,
@@ -292,7 +296,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9T4UW5JHZ7;
+				DEVELOPMENT_TEAM = ZHM97V27PF;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/JSdkIOSDemo",
@@ -315,7 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9T4UW5JHZ7;
+				DEVELOPMENT_TEAM = ZHM97V27PF;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/JSdkIOSDemo",
