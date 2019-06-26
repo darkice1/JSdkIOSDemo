@@ -14,6 +14,7 @@
 		55E9AA9122C07B6F009A2ED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E9AA8F22C07B6F009A2ED1 /* LaunchScreen.storyboard */; };
 		55E9AA9422C07B6F009A2ED1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E9AA9322C07B6F009A2ED1 /* main.m */; };
 		55E9AA9F22C0BDC1009A2ED1 /* JyAdFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E9AA9E22C0BDC1009A2ED1 /* JyAdFramework.framework */; };
+		B59A375322C38A190070538D /* JyDemoCallBack.m in Sources */ = {isa = PBXBuildFile; fileRef = B59A375222C38A180070538D /* JyDemoCallBack.m */; };
 		B5BB968422C3232700DB2F20 /* 说明文档.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B5BB968322C3232700DB2F20 /* 说明文档.pdf */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,8 @@
 		55E9AA9222C07B6F009A2ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55E9AA9322C07B6F009A2ED1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		55E9AA9E22C0BDC1009A2ED1 /* JyAdFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JyAdFramework.framework; sourceTree = "<group>"; };
+		B59A375122C38A180070538D /* JyDemoCallBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JyDemoCallBack.h; sourceTree = "<group>"; };
+		B59A375222C38A180070538D /* JyDemoCallBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JyDemoCallBack.m; sourceTree = "<group>"; };
 		B5BB968322C3232700DB2F20 /* 说明文档.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "说明文档.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +67,8 @@
 		55E9AA8322C07B6C009A2ED1 /* JSdkIOSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B59A375122C38A180070538D /* JyDemoCallBack.h */,
+				B59A375222C38A180070538D /* JyDemoCallBack.m */,
 				55E9AA9E22C0BDC1009A2ED1 /* JyAdFramework.framework */,
 				55E9AA8422C07B6C009A2ED1 /* AppDelegate.h */,
 				55E9AA8522C07B6C009A2ED1 /* AppDelegate.m */,
@@ -152,6 +157,7 @@
 				55E9AA8922C07B6C009A2ED1 /* ViewController.m in Sources */,
 				55E9AA9422C07B6F009A2ED1 /* main.m in Sources */,
 				55E9AA8622C07B6C009A2ED1 /* AppDelegate.m in Sources */,
+				B59A375322C38A190070538D /* JyDemoCallBack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
