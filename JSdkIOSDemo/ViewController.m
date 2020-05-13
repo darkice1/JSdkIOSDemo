@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import <JyAdFramework/JyAdHeader.h>
-#import "JyDemoCallBack.h"
+#import "JyAdDelegate.h"
 
 @interface ViewController ()
 
@@ -19,13 +19,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //回掉协议
+    JyAdDelegate* ad_delegate = [[JyAdDelegate alloc]init];
     
     //SDK功能测试示例
-    //回调方法
-    JyDemoCallBack *cb  = [[JyDemoCallBack alloc] init];
-    JyAdView* adview1 = [JyAd initNormalAdView:self.view placeid:@"QkVEMzVBRTUwODZCRjNF" left:0 top:0 width:300 height:250 callback:cb];
-    JyAdView* adview2 = [JyAd initPopAdView:self.view placeid:@"QjlGQTg5QkVFNEI4N0NF" width:300 height:250 callback:nil];
-    [adview2 open];
+    //普通广告
+    [JyAd initNormalAdView:self.view placeid:@"QjlGQTg5QkVFNEI4N0NF" left:0 top:0 width:300 height:250 addelegate:ad_delegate];
+    //弹出广告
+//    JyAdView* adview2 = [JyAd initPopAdView:self.view placeid:@"QjlGQTg5QkVFNEI4N0NF" width:300 height:250 addelegate:ad_delegate];
+//    [adview2 open];
+    
+    //自渲染广告
+//    JyNative* nat = [JyAd initNative:@"QjlGQTg5QkVFNEI4N0NF" width:399 height:250 addelegate:ad_delegate];
+//    [nat show]
 }
 
 

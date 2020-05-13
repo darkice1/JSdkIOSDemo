@@ -8,6 +8,5 @@
 
 #import "JyAd.h"
 #import "JyAdView.h"
-#import "JyCallBack.h"
 
 
