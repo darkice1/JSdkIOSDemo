@@ -22,22 +22,17 @@
     //回掉协议
     JyAdDelegate* ad_delegate = [[JyAdDelegate alloc]init];
     
-    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(20, 20, 300, 200)];
-    [self.view addSubview:view];
-    
-    
+    NSString* pid = @"QjlGQTg5QkVFNEI4N0NF";
+
     //SDK功能测试示例
     //普通广告
-    [JyAd initNormalAdView:view placeid:@"FPN2XNXCTILTYYZBI0NO" width:480 height:320 addelegate:ad_delegate];
+     JyAdView* adview1 =  [JyAd initNormalAdView:pid adwidth:300 adheight:250 showwidth:300 showheight:250 addelegate:ad_delegate];
+    [self.view addSubview:adview1];
     
-    //弹出广告
-    UIView *popview = [[UIView alloc]initWithFrame:CGRectMake(20, 250, 300, 200)];
-    [self.view addSubview:popview];
-    JyAdView* adview2 = [JyAd initPopAdView:popview placeid:@"FPN2XNXCTILTYYZBI0NO" width:480 height:320 addelegate:ad_delegate];
-//    [adview2 setContentMode:UIViewContentModeScaleAspectFit];
-//    adview2.transform =CGAffineTransformMakeScale(0.5, 0.5);
-//    adview2.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
-    [adview2 open];
+//    //弹出广告
+//    JyAdView* adview2 = [JyAd initPopAdView:pid adwidth:300 adheight:250 showwidth:300 showheight:250 addelegate:ad_delegate];
+//    [adview2 open];
+//    [self.view addSubview:adview2];
     
     //自渲染广告
 //    JyNative* nat = [JyAd initNative:@"QjlGQTg5QkVFNEI4N0NF" width:399 height:250 addelegate:ad_delegate];

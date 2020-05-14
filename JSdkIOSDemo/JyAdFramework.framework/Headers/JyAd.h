@@ -12,9 +12,9 @@
 
 
 @interface JyAd : NSObject
-+(JyAdView*)initNormalAdView:(UIView*)superview placeid:(NSString*)placeid width:(int)width  height:(int)height addelegate:(id<AdsManagerDelegate>)addelegate;
++(JyAdView*)initNormalAdView:(NSString*)placeid adwidth:(int)adwidth  adheight:(int)adheight showwidth:(int)showwidth  showheight:(int)showheight  addelegate:(id<AdsManagerDelegate>)addelegate;
 
-+(JyAdView*)initPopAdView:(UIView*)superview placeid:(NSString*)placeid width:(int)width  height:(int)height addelegate:(id<AdsManagerDelegate>)addelegate;
++(JyAdView*)initPopAdView:(NSString*)placeid adwidth:(int)adwidth  adheight:(int)adheight  showwidth:(int)showwidth  showheight:(int)showheight  addelegate:(id<AdsManagerDelegate>)addelegate;
 
 +(JyNative*)initNative:(NSString*)placeid width:(int)width  height:(int)height addelegate:(id<AdsManagerDelegate>)addelegate;
 
