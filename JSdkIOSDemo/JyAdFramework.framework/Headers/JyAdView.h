@@ -17,10 +17,11 @@
         int width;
         int height;
         id<AdsManagerDelegate> ad_delegate;
-    
+
+        UIView* superview ;    
 }
 
--(id) init:(NSString*)placeid adtype:(int)adtype adwidth:(int)adwidth adheight:(int)adheight  showwidth:(int)showwidth  showheight:(int)showheight  addelegate:(id<AdsManagerDelegate>)addelegate;
+-(id) init:(UIView*)_superview  placeid:(NSString*)_placeid adtype:(int)adtype adwidth:(int)adwidth adheight:(int)adheight showrect:(CGRect)showrect addelegate:(id<AdsManagerDelegate>)addelegate;
 
 
 -(void) loadAd;

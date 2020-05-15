@@ -26,18 +26,14 @@
 
     //SDK功能测试示例
     //普通广告
-     JyAdView* adview1 =  [JyAd initNormalAdView:pid adwidth:300 adheight:250 showwidth:300 showheight:250 addelegate:ad_delegate];
-    [self.view addSubview:adview1];
-    
-//    //弹出广告
-//    JyAdView* adview2 = [JyAd initPopAdView:pid adwidth:300 adheight:250 showwidth:300 showheight:250 addelegate:ad_delegate];
+    [JyAd initNormalAdView:self.view placeid:pid adwidth:300 adheight:250 showrect:CGRectMake(0, 0, 300, 250) addelegate:ad_delegate];
+
+    //弹出广告
+//    JyAdView* adview2 = [JyAd initPopAdView:self.view placeid:pid adwidth:300 adheight:250 showrect:CGRectMake(0, 350, 300, 250) addelegate:ad_delegate];
 //    [adview2 open];
-//    [self.view addSubview:adview2];
     
     //自渲染广告
-//    JyNative* nat = [JyAd initNative:@"QjlGQTg5QkVFNEI4N0NF" width:399 height:250 addelegate:ad_delegate];
+//    JyNative* nat = [JyAd initNative:pid width:300 height:250 addelegate:ad_delegate];
 //    [nat show]
 }
-
-
 @end
