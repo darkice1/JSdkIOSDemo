@@ -26,10 +26,13 @@
 
     //SDK功能测试示例
     //普通广告
-    [JyAd initNormalAdView:self.view placeid:pid adwidth:300 adheight:250 showrect:CGRectMake(0, 0, 300, 250) addelegate:ad_delegate];
+    JyAdView* adview1 = [JyAd initNormalAdView:self.view placeid:pid adwidth:300 adheight:250 showrect:CGRectMake(0, 0, 300, 250) addelegate:ad_delegate];
+    //不使用浏览器打开。 默认使用浏览器打开。
+    [adview1 setOpenSafai:NO];
 
     //弹出广告
 //    JyAdView* adview2 = [JyAd initPopAdView:self.view placeid:pid adwidth:300 adheight:250 showrect:CGRectMake(0, 350, 300, 250) addelegate:ad_delegate];
+//    [adview2 setOpenSafai:NO];
 //    [adview2 open];
     
     //自渲染广告

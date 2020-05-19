@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "AdsManagerDelegate.h"
+@class JyMobJs;
 
 @interface JyAdView : UIWebView <UIWebViewDelegate>
 {
@@ -18,13 +19,17 @@
         int height;
         id<AdsManagerDelegate> ad_delegate;
 
-        UIView* superview ;    
+        UIView* superview ;
+        JyMobJs *jsdk;
 }
+
 
 -(id) init:(UIView*)_superview  placeid:(NSString*)_placeid adtype:(int)adtype adwidth:(int)adwidth adheight:(int)adheight showrect:(CGRect)showrect addelegate:(id<AdsManagerDelegate>)addelegate;
 
 
 -(void) loadAd;
+
+-(void) setOpenSafai:(BOOL)open;
 
 -(void) open;
 -(void) close;
