@@ -21,8 +21,8 @@
     //收到广告返回
     NSLog(@"onADReceive");
     //自渲染可以之后执行展示与点击
-    [nativead show];
-    [nativead click];
+//    [nativead show];
+//    [nativead click];
 }
 - (void) onADExposure:(JyNative* __nullable)nativead
 {
