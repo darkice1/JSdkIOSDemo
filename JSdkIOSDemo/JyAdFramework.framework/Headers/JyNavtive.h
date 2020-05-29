@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
 
 @protocol AdsManagerDelegate;
 
@@ -18,11 +20,13 @@
     int height;
     id<AdsManagerDelegate> ad_delegate;
     NSDictionary* detail;
+    UIView* openview;
+    CGRect openrect;
 }
 
-//-(id) init:(UIView*)superview placeid:(NSString*)placeid adtype:(int)adtype width:(int)width height:(int)height;
 
--(id) init:(NSString*)_placeid width:(int)_width height:(int)_height ad_delegate:(id<AdsManagerDelegate>) _ad_delegate;
+-(id) init:(NSString*)_placeid width:(int)_width height:(int)_height ad_delegate:(id<AdsManagerDelegate>) _ad_delegate openview:(UIView*)_openview  openrect:(CGRect)_openrect;
+
 
 -(void)show;
 -(void)click;

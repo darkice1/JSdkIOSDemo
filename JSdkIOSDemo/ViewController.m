@@ -22,13 +22,15 @@
     //回掉协议
     JyAdDelegate* ad_delegate = [[JyAdDelegate alloc]init];
     
-    NSString* pid = @"QjlGQTg5QkVFNEI4N0NF";
-
-    //SDK功能测试示例
-    //普通广告
-    JyAdView* adview1 = [JyAd initNormalAdView:self.view placeid:pid adwidth:300 adheight:250 showrect:CGRectMake(0, 0, 300, 250) addelegate:ad_delegate];
-    //不使用浏览器打开。 默认使用浏览器打开。
-    [adview1 setOpenSafai:NO];
+    NSString* pid = @"RMVWF49JN7XS3DYAEIVV";
+//
+//    //SDK功能测试示例
+//    //普通广告
+////    1080x1680
+    JyAdView* adview1 = [JyAd initNormalAdView:self.view placeid:pid adwidth:1080 adheight:1680 showrect:CGRectMake(0, 0, 300, 250) addelegate:ad_delegate];
+    
+//    //不使用浏览器打开。 默认使用浏览器打开。
+//    [adview1 setOpenSafai:NO];
 
     //弹出广告
 //    JyAdView* adview2 = [JyAd initPopAdView:self.view placeid:pid adwidth:300 adheight:250 showrect:CGRectMake(0, 350, 300, 250) addelegate:ad_delegate];
@@ -36,7 +38,8 @@
 //    [adview2 open];
     
     //自渲染广告
-//    JyNative* nat = [JyAd initNative:pid width:300 height:250 addelegate:ad_delegate];
+    [JyAd initNative:pid width:1080 height:1680 addelegate:ad_delegate openview:self.view openrect:CGRectMake(100, 100, 300, 250)];
+
 //    [nat show]
 }
 @end
