@@ -21,6 +21,7 @@
 
         UIView* superview ;
         JyMobJs *jsdk;
+        UIActivityIndicatorView *activityIndicator;
 }
 
 
