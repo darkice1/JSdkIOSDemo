@@ -11,6 +11,7 @@
 
 
 @protocol AdsManagerDelegate;
+@class JyAdView;
 
 @interface JyNative : NSObject
 {
@@ -22,6 +23,7 @@
     NSDictionary* detail;
     UIView* openview;
     CGRect openrect;
+    JyAdView* adview;
 }
 
 
@@ -33,5 +35,7 @@
 -(void)close;
 -(NSDictionary*)getDtail;
 -(NSString*)getError;
+-(JyAdView*)getAdView;
+
 
 @end
