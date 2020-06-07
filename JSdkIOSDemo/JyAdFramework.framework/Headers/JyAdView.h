@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WebKit/WebKit.h>
 #import "AdsManagerDelegate.h"
-@class JyMobJs;
 
-@interface JyAdView : UIWebView <UIWebViewDelegate>
+@interface JyAdView : WKWebView <WKNavigationDelegate,WKUIDelegate,WKScriptMessageHandler>
 {
     @private
         NSString *placeid;
@@ -20,7 +20,6 @@
         id<AdsManagerDelegate> ad_delegate;
 
         UIView* superview ;
-        JyMobJs *jsdk;
         UIActivityIndicatorView *activityIndicator;
 }
 

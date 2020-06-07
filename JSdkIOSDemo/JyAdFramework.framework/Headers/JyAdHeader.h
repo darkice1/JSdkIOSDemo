@@ -8,5 +8,6 @@
 
 #import "JyAd.h"
 #import "JyAdView.h"
-
+#import "JyNavtive.h"
+#import "AdsManagerDelegate.h"
 

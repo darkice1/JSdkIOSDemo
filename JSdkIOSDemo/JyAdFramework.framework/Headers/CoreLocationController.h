@@ -20,13 +20,11 @@
 
 
 @interface CoreLocationController : NSObject <CLLocationManagerDelegate> {
-	//CLLocationManager *locMgr;
 	id delegate;
-    
 }
+
 + (CLLocationManager*)getLocation;
 @property (nonatomic, readonly) CLLocationCoordinate2D coord;
-//@property (nonatomic, strong) CLLocationManager *locMgr;
 @property (nonatomic, strong) id delegate;
 
 @end

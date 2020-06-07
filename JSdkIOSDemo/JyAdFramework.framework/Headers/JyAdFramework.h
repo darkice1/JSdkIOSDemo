@@ -7,6 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JyAd.h"
+#import "JyAdView.h"
+#import "JyNavtive.h"
+#import "AdsManagerDelegate.h"
+#import "JyAdHeader.h"
+#import "CoreLocationController.h"
 
 //! Project version number for JyAdFramework.
 FOUNDATION_EXPORT double JyAdFrameworkVersionNumber;
