@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void) onADReceive:(JyNative* __nullable)nativead;
 - (void) onADExposure:(JyNative* __nullable)nativead;
 - (void) onNoAd:(NSString * __nullable) error;
-- (void) close:(JyNative* __nullable)nativead;
+- (void) onClosed:(JyNative* __nullable)nativead;
 
 //@optional
 

@@ -35,10 +35,10 @@
     NSLog(@"onNoAd:%@",error);
 
 }
-- (void) close:(JyNative* __nullable)nativead
+- (void) onClosed:(JyNative *__nullable)nativead
 {
     //广告被关闭
-    NSLog(@"close");
+    NSLog(@"onClosed");
 }
 
 @end

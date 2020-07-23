@@ -25,18 +25,18 @@
     
     //  1.原生视频位置：U286Z049ONFK1DM7OVM4 640x960，普通落地页，不支持dp
     //  2.图片位置：DHBE2DENY3MSAMQQ8YXA   640x960  universal link
-    NSString* pid = @"DHBE2DENY3MSAMQQ8YXA";
+    NSString* pid = @"U286Z049ONFK1DM7OVM4";
 //
 //    //SDK功能测试示例
 //    //普通广告
-//    JyAdView* adview1 = [JyAd initNormalAdView:self.view placeid:pid adwidth:640 adheight:960 showrect:CGRectMake(0, 0, 320, 480) addelegate:ad_delegate];
+//    JyAdView* adview1 = [JyAd initNormalAdView:self.view placeid:pid adwidth:640 adheight:960 showrect:CGRectMake(0, 0, 320, 480) addelegate:ad_delegate closebtn:false];
     
 //    //不使用浏览器打开。 默认使用浏览器打开。
 //    [adview1 setOpenSafai:NO];
 
     //弹出广告
-    JyAdView* adview2 = [JyAd initPopAdView:self.view placeid:pid adwidth:640 adheight:960 showrect:CGRectMake(0, 0, 320, 480) addelegate:ad_delegate];
-    [adview2 setOpenSafai:NO];
+    JyAdView* adview2 = [JyAd initPopAdView:self.view placeid:pid adwidth:640 adheight:960 showrect:CGRectMake(0, 0, 320, 480) addelegate:ad_delegate closebtn:true];
+//    [adview2 setOpenSafai:NO];
     //等待返回
     double delayInSeconds = 2.0;
         dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
