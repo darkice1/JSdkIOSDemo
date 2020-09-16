@@ -1,0 +1,16 @@
+PODS:
+  - JyAdFramework (1.0.0)
+
+DEPENDENCIES:
+  - JyAdFramework (~> 1.0.0)
+
+SPEC REPOS:
+  trunk:
+    - JyAdFramework
+
+SPEC CHECKSUMS:
+  JyAdFramework: c3f69e89e846e14bc657878f5af863f97a0cd078
+
+PODFILE CHECKSUM: f7e5cf8bada8b6043ec5963ac39ee5bccbd61137
+
+COCOAPODS: 1.9.3
