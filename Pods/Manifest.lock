@@ -1,22 +1,16 @@
 PODS:
-  - FMDB (2.7.5):
-    - FMDB/standard (= 2.7.5)
-  - FMDB/standard (2.7.5)
-  - JyAdFramework (3.0.1):
-    - FMDB
+  - JyAdFramework (1.0.1)
 
 DEPENDENCIES:
-  - JyAdFramework (~> 3.0.1)
+  - JyAdFramework (from `../SDK/`)
 
-SPEC REPOS:
-  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
-    - FMDB
-    - JyAdFramework
+EXTERNAL SOURCES:
+  JyAdFramework:
+    :path: "../SDK/"
 
 SPEC CHECKSUMS:
-  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  JyAdFramework: 2b72a7d84a571beb1971b7aa3bc9539a4b54bbec
+  JyAdFramework: 4dc6cf0c8021d55f710b28e093f709de3f79ae24
 
-PODFILE CHECKSUM: 8b266c96771e2bfb3e54e65cc36d42ca940d6766
+PODFILE CHECKSUM: a4f9697f456ffc8ed62f42806763bdaa8de7ae65
 
 COCOAPODS: 1.9.3
