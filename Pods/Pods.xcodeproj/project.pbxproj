@@ -35,19 +35,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0275D5A4C2ED3D9FF643FA4454C71784 /* JyAdFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JyAdFramework.release.xcconfig; sourceTree = "<group>"; };
-		14173083F5A57FBF159583D3B45B2BF9 /* JyAdFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JyAdFramework.framework; path = Build/JyAdFramework.framework; sourceTree = "<group>"; };
 		1B509324E0DDBFAF6F9BDEE03557A200 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		23B24A8C22199E5A58BBFDC9EA72B0AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		280FD1EBFC94151D732F6604F75746DF /* JyAdFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JyAdFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34F1E85C7472B8B74CAD89AF3B385034 /* JyAdFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JyAdFramework.debug.xcconfig; sourceTree = "<group>"; };
 		37E86C8334F06C336630A870A0B2E62F /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6A5BCFDC8A0BFCCF78D79352ECBE4D05 /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6C26FBA18A2091C590FD6605A40897C6 /* JyAdFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JyAdFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		79F165DCC975E6632B7D91148ADCC006 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		80D3D16EC5740D779AAEDE8B82ADA328 /* JyAdFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JyAdFramework.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A26EC3A56CC4AB6876A51526A56D550E /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
 		A38A5498DFA72D80A29954DFC52440DA /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
+		B9EF2CD2399352A15562924BAAEA3081 /* JyAdFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JyAdFramework.debug.xcconfig; sourceTree = "<group>"; };
+		E5FE9DCD3CF08DC6EF7DE01E130440E4 /* JyAdFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JyAdFramework.framework; path = Build/JyAdFramework.framework; sourceTree = "<group>"; };
 		F136FFE8A9F77E570AF1D4CFBD7CF333 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
 		F6DFA99DC01ECBD1B15702F1B1072C87 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		FBD7B424DDE770E7C3C54A67A1E95C3C /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
@@ -65,6 +65,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CE582A6AED3CADA77FE089BB2726495 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				280FD1EBFC94151D732F6604F75746DF /* JyAdFramework.podspec */,
+				79F165DCC975E6632B7D91148ADCC006 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		49D89C83FB6D80909E7AB878478AEF24 /* Pods-Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,25 +90,6 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		55DC8936BB079FC5E3A6F7A9DF52063A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				34F1E85C7472B8B74CAD89AF3B385034 /* JyAdFramework.debug.xcconfig */,
-				0275D5A4C2ED3D9FF643FA4454C71784 /* JyAdFramework.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../JSdkIOSDemo/Pods/Target Support Files/JyAdFramework";
-			sourceTree = "<group>";
-		};
-		5C7C8FA35E101D686532AD9A212CB8F4 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				6C26FBA18A2091C590FD6605A40897C6 /* JyAdFramework.podspec */,
-				23B24A8C22199E5A58BBFDC9EA72B0AB /* LICENSE */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		6175F76A709D89A745234C5440684C67 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,23 +98,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8234712B790ED8E7C8670AF25CAC9B54 /* JyAdFramework */ = {
+		963D7F448B229B4CA26E5AEECD63BEBD /* JyAdFramework */ = {
 			isa = PBXGroup;
 			children = (
-				B21AC39EDF85E309F5ECBDEF471BF0D3 /* Frameworks */,
-				5C7C8FA35E101D686532AD9A212CB8F4 /* Pod */,
-				55DC8936BB079FC5E3A6F7A9DF52063A /* Support Files */,
+				FC1FF1AD6884DD26ACD0713915D0E47A /* Frameworks */,
+				2CE582A6AED3CADA77FE089BB2726495 /* Pod */,
+				A1C20D587DF067D8FC5ADD3E119005B7 /* Support Files */,
 			);
 			name = JyAdFramework;
 			path = ../../SDK;
 			sourceTree = "<group>";
 		};
-		B21AC39EDF85E309F5ECBDEF471BF0D3 /* Frameworks */ = {
+		A1C20D587DF067D8FC5ADD3E119005B7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				14173083F5A57FBF159583D3B45B2BF9 /* JyAdFramework.framework */,
+				B9EF2CD2399352A15562924BAAEA3081 /* JyAdFramework.debug.xcconfig */,
+				80D3D16EC5740D779AAEDE8B82ADA328 /* JyAdFramework.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Example/Pods/Target Support Files/JyAdFramework";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -157,7 +149,7 @@
 		E88EFDD4A46FE11F6991822BC9C91C10 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8234712B790ED8E7C8670AF25CAC9B54 /* JyAdFramework */,
+				963D7F448B229B4CA26E5AEECD63BEBD /* JyAdFramework */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -168,6 +160,14 @@
 				1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FC1FF1AD6884DD26ACD0713915D0E47A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5FE9DCD3CF08DC6EF7DE01E130440E4 /* JyAdFramework.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -405,7 +405,7 @@
 		};
 		9A3E5F1CF4B8F9D0FC40C655FC0CFF8F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0275D5A4C2ED3D9FF643FA4454C71784 /* JyAdFramework.release.xcconfig */;
+			baseConfigurationReference = 80D3D16EC5740D779AAEDE8B82ADA328 /* JyAdFramework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -422,7 +422,7 @@
 		};
 		A389A7BECEE677751FB9DF8A990EB8D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34F1E85C7472B8B74CAD89AF3B385034 /* JyAdFramework.debug.xcconfig */;
+			baseConfigurationReference = B9EF2CD2399352A15562924BAAEA3081 /* JyAdFramework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
