@@ -1,16 +1,16 @@
 PODS:
-  - JyAdFramework (1.0.1)
+  - JyAdFramework (4.0.0)
 
 DEPENDENCIES:
-  - JyAdFramework (from `../SDK/`)
+  - JyAdFramework (from `../SDK`)
 
 EXTERNAL SOURCES:
   JyAdFramework:
-    :path: "../SDK/"
+    :path: "../SDK"
 
 SPEC CHECKSUMS:
-  JyAdFramework: 4dc6cf0c8021d55f710b28e093f709de3f79ae24
+  JyAdFramework: c57b0d73f49dd14e0cc275d176033a8419bfce25
 
-PODFILE CHECKSUM: a4f9697f456ffc8ed62f42806763bdaa8de7ae65
+PODFILE CHECKSUM: 99ffabd727e775a3fecd7b2404009f534f2e0649
 
 COCOAPODS: 1.9.3

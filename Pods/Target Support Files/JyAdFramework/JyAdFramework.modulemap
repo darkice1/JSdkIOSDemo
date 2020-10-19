@@ -1,0 +1,6 @@
+framework module JyAdFramework {
+  umbrella header "JyAdFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
