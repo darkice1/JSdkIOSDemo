@@ -12,7 +12,7 @@
     "Tuiyi": "linye@51tuiyi.com"
   },
   "source": {
-    "http": "http://cdn.51tuiyi.com/pod/Build3.zip"
+    "http": "http://cdn.51tuiyi.com/pod/Build_20201108180538.zip"
   },
   "platforms": {
     "ios": "9.0"
@@ -29,6 +29,7 @@
     "CoreTelephony",
     "CoreLocation",
     "SystemConfiguration",
-    "SafariServices"
+    "SafariServices",
+    "AVKit"
   ]
 }
