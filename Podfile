@@ -10,11 +10,11 @@ target 'Example' do
   
   # Pods for Example
   # 本地调试
-#  pod 'JyAdFramework', :path => '../../SDK/iossdk/'
+  # pod 'JyAdFramework', :path => '../../SDK/iossdk/'
   
   # 远程
-   pod 'JyAdFramework'
-  
+  pod 'JyAdFramework'
   
   pod 'SDWebImage', '~> 5.9.3'
+  
 end
