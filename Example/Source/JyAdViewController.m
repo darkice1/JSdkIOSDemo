@@ -59,24 +59,42 @@
 
 # pragma mark - JyAdManagerDelegate
 
+/// 广告加载成功
+/// @param manager 广告管理器
 - (void)jyAdManagerOnAdReceive:(nonnull JyAdManager *)manager {
     [self addLog:@"jyAdManagerOnAdReceive"];
 }
 
+/// 广告加载失败
+/// @param manager 广告管理器
+/// @param error 错误信息
 - (void)jyAdManager:(nonnull JyAdManager *)manager onAdError:(nonnull NSError *)error {
     [self addLog:[NSString stringWithFormat:@"jyAdManagerOnAdError: %@", error]];
 }
 
+/// 广告开始展示
+/// @param manager 广告管理器
 - (void)jyAdManagerOnAdExposure:(nonnull JyAdManager *)manager {
     [self addLog:@"jyAdManagerOnAdExposure"];
 }
 
+/// 广告被点击
+/// @param manager 广告管理器
 - (void)jyAdManagerOnAdClicked:(nonnull JyAdManager *)manager {
     [self addLog:@"jyAdManagerOnAdClicked"];
 }
 
+/// 广告被关闭
+/// @param manager 广告管理器
 - (void)jyAdManagerOnAdClosed:(nonnull JyAdManager *)manager {
     [self addLog:@"jyAdManagerOnAdClosed"];
+    [manager closeAd];
+}
+
+/// 广告被跳过
+/// @param manager 广告管理器
+- (void)jyAdManagerOnAdSkiped:(JyAdManager *)manager {
+    [self addLog:@"jyAdManagerOnAdSkiped"];
     [manager closeAd];
 }
 
