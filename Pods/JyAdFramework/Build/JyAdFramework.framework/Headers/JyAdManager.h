@@ -23,9 +23,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param adWidth 广告宽度
 /// @param adHeight 广告高度
 /// @param delegate 代理
-/// @param showView 广告展示界面（原生广告忽略）
-/// @param showRect 显示区域（原生广告忽略）
-/// @param closebtn 是否显示关闭按钮（原生广告忽略）
+/// @param showView 广告展示界面（原生广告忽略，开屏不传则默认显示在window上）
+/// @param showRect 显示区域（原生广告忽略，开屏如果设置为（CGReactNull/CGRectZero）则默认为window大小））
+/// @param closebtn 是否显示关闭按钮（原生/开屏广告忽略）
 - (instancetype)initWithAdType:(JyAdType)adType
                        adPlaceID:(NSString *)adPlaceID
                          adWidth:(int)adWidth
