@@ -40,17 +40,19 @@
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     JyAdViewController *controller = segue.destinationViewController;
-    controller.placeID = @"U286Z049ONFK1DM7OVM4";
-    controller.adWidth = 640;
-    controller.adHeight = 960;
-    if ([segue.identifier isEqualToString:@"Normal"]) {
-        controller.adType = JyAdTypeNormal;
-    } else if ([segue.identifier isEqualToString:@"Pop"]) {
-        controller.adType = JyAdTypePop;
-    } else if ([segue.identifier isEqualToString:@"Native"]) {
-        controller.adType = JyAdTypeNative;
-    } else if ([segue.identifier isEqualToString:@"splash"]) {
-        controller.adType = JyAdTypeSplash;
+    if ([controller isKindOfClass:[JyAdViewController class]]) {
+        controller.placeID = @"TVZORBF66XRONZVPVBU7";
+        controller.adWidth = 640;
+        controller.adHeight = 960;
+        if ([segue.identifier isEqualToString:@"Normal"]) {
+            controller.adType = JyAdTypeNormal;
+        } else if ([segue.identifier isEqualToString:@"Pop"]) {
+            controller.adType = JyAdTypePop;
+        } else if ([segue.identifier isEqualToString:@"Native"]) {
+            controller.adType = JyAdTypeNative;
+        } else if ([segue.identifier isEqualToString:@"splash"]) {
+            controller.adType = JyAdTypeSplash;
+        }
     }
 }
 

@@ -13,7 +13,7 @@ target 'Example' do
   # pod 'JyAdFramework', :path => '../../SDK/iossdk/'
   
   # 远程
-  pod 'JyAdFramework', '4.0.3'
+  pod 'JyAdFramework', '4.0.7'
   
   pod 'SDWebImage', '~> 5.9.3'
   

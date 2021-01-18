@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D04426F5AFE35B79095EB3A5 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E28F507D05DACEDA9EE9BA /* Pods_Example.framework */; };
+		D422F6E22594A5AA00CF4152 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D422F6E12594A5AA00CF4152 /* TestViewController.m */; };
 		D43F43BA2557FFF700C22284 /* TestNativeAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = D43F43AB2557FFF700C22284 /* TestNativeAdView.m */; };
 		D43F43BB2557FFF700C22284 /* TestNativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D43F43AC2557FFF700C22284 /* TestNativeAdView.xib */; };
 		D43F43BC2557FFF700C22284 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43F43AD2557FFF700C22284 /* LaunchScreen.storyboard */; };
@@ -23,6 +24,8 @@
 		0FB721C42B19362556F82B81 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		AD45AA0C01BE748679AE65B0 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D3E28F507D05DACEDA9EE9BA /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D422F6E02594A5AA00CF4152 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		D422F6E12594A5AA00CF4152 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		D43F43AB2557FFF700C22284 /* TestNativeAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNativeAdView.m; sourceTree = "<group>"; };
 		D43F43AC2557FFF700C22284 /* TestNativeAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestNativeAdView.xib; sourceTree = "<group>"; };
 		D43F43AE2557FFF700C22284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +79,8 @@
 				D43F43B32557FFF700C22284 /* TableViewController.m */,
 				D43F43B22557FFF700C22284 /* JyAdViewController.h */,
 				D43F43B92557FFF700C22284 /* JyAdViewController.m */,
+				D422F6E02594A5AA00CF4152 /* TestViewController.h */,
+				D422F6E12594A5AA00CF4152 /* TestViewController.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D422F6E22594A5AA00CF4152 /* TestViewController.m in Sources */,
 				D43F43BE2557FFF700C22284 /* AppDelegate.m in Sources */,
 				D43F43BF2557FFF700C22284 /* TableViewController.m in Sources */,
 				D43F43C02557FFF700C22284 /* main.m in Sources */,
@@ -379,13 +385,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A6Q878SMH;
 				INFOPLIST_FILE = Example/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jy.Example;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jy.Exampleaa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -398,13 +405,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6A6Q878SMH;
 				INFOPLIST_FILE = Example/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jy.Example;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jy.Exampleaa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
