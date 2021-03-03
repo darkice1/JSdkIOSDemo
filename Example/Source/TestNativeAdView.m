@@ -20,12 +20,13 @@
 @implementation TestNativeAdView
 
 - (void)showAdWithManager:(JyAdManager *)manager {
-    [super showAdWithManager:manager];
     if (manager.jyAdModel.isVideo) {
         [self showVideoPalyer:manager.jyAdModel.adURL];
     } else {
         [self showImage:manager.jyAdModel.adURL];
     }
+    
+    [super showAdWithManager:manager];
 }
 
 - (void)showVideoPalyer:(NSString *)path {
