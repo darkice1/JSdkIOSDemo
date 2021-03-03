@@ -70,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				D4CF14DA25E6329B00C12F70 /* CAID */,
+				D4CF14E825E6329B00C12F70 /* main.m */,
 				D4CF14DF25E6329B00C12F70 /* AppDelegate.h */,
 				D4CF14EA25E6329B00C12F70 /* AppDelegate.m */,
 				D4CF14E225E6329B00C12F70 /* Assets.xcassets */,
@@ -89,7 +90,6 @@
 		D4CF14DA25E6329B00C12F70 /* CAID */ = {
 			isa = PBXGroup;
 			children = (
-				D4CF14E825E6329B00C12F70 /* main.m */,
 				D4CF14DB25E6329B00C12F70 /* CAIDError.h */,
 				D4CF14DC25E6329B00C12F70 /* LibCAIDSDK.a */,
 				D4CF14DD25E6329B00C12F70 /* CAIDStruct.h */,
