@@ -2,7 +2,7 @@
 
 - [SDK导入](https://github.com/darkice1/JSdkIOSDemo/wiki/SDK-%E5%AF%BC%E5%85%A5)
 
-### 使用文档
+## 使用文档
 
 - [开屏广告](https://github.com/darkice1/JSdkIOSDemo/wiki/开屏广告)
 
@@ -12,3 +12,8 @@
 
 - [原生广告](https://github.com/darkice1/JSdkIOSDemo/wiki/原生广告)
 
+## CAID
+
+对于有CAID需求的的开发者可以配置CAID：
+
+- [CAID](https://github.com/darkice1/JSdkIOSDemo/wiki/CAID)
