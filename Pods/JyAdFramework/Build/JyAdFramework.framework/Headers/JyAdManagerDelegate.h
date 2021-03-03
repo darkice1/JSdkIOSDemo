@@ -31,16 +31,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param manager 广告管理器
 - (void)jyAdManagerOnAdClicked:(JyAdManager *)manager;
 
-/// 广告被关闭
+/// 广告被关闭/跳过
 /// @param manager 广告管理器
 - (void)jyAdManagerOnAdClosed:(JyAdManager *)manager;
-
-
-@optional
-
-/// 广告被跳过
-/// @param manager 广告管理器
-- (void)jyAdManagerOnAdSkiped:(JyAdManager *)manager;
 
 @end
 

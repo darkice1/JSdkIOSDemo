@@ -1,21 +1,25 @@
 //
 //  JyNativeAdView.h
-//  JyAdSDK
+//  JyAdFramework
 //
-//  Created by 岳坤 on 2020/10/18.
+//  Created by 岳坤 on 2020/12/29.
+//  Copyright © 2020 linusflow. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "JyNative.h"
+#import "JyAdManager.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-/// 自渲染广告界面，所有的自渲染广告需要继承于此
+/// 原生广告界面
 @interface JyNativeAdView : UIView
 
+/// 广告管理器
+@property (strong, nonatomic) JyAdManager *manager;
+
 /// 显示广告
-/// @param native 自渲染广告
-- (void)showAd:(JyNative *)native;
+/// @param manager 广告管理器
+- (void)showAdWithManager:(JyAdManager *)manager;
 
 @end
 

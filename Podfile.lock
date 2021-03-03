@@ -1,11 +1,11 @@
 PODS:
-  - JyAdFramework (4.0.7)
-  - SDWebImage (5.9.4):
-    - SDWebImage/Core (= 5.9.4)
-  - SDWebImage/Core (5.9.4)
+  - JyAdFramework (5.0.0)
+  - SDWebImage (5.9.5):
+    - SDWebImage/Core (= 5.9.5)
+  - SDWebImage/Core (5.9.5)
 
 DEPENDENCIES:
-  - JyAdFramework (= 4.0.7)
+  - JyAdFramework (= 5.0.0)
   - SDWebImage (~> 5.9.3)
 
 SPEC REPOS:
@@ -14,9 +14,9 @@ SPEC REPOS:
     - SDWebImage
 
 SPEC CHECKSUMS:
-  JyAdFramework: 74ce27840c5c590a0a67ca9286e98b4e545bbc2e
-  SDWebImage: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1
+  JyAdFramework: fe24b9547dd6630f0225379bd34b3448b6eef151
+  SDWebImage: 0b2ba0d56479bf6a45ecddbfd5558bea93150d25
 
-PODFILE CHECKSUM: 5c05d3b3d7be724d57922c0778c9be488ed03038
+PODFILE CHECKSUM: 5219e9ab5de49aab7162a721f7577277437b525e
 
 COCOAPODS: 1.10.1

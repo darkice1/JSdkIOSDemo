@@ -8,10 +8,9 @@
 #import <Foundation/Foundation.h>
 #import "JyAdManager.h"
 #import "JyAdManagerDelegate.h"
-
-#import "JyNative.h"
-#import "JyNativeDelegate.h"
 #import "JyNativeAdView.h"
+#import "JyAdModel.h"
+#import "JyCAIDManager.h"
 
 //! Project version number for JyAdSDK.
 FOUNDATION_EXPORT double JyAdSDKVersionNumber;

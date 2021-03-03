@@ -9,43 +9,35 @@
 #import <UIKit/UIKit.h>
 #import "JyAdType.h"
 #import "JyAdManagerDelegate.h"
-#import "JyNative.h"
+#import "JyAdModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 /// 广告管理器
 @interface JyAdManager : NSObject
 
-
-/// 初始化广告
+/// 初始化广告管理器
 /// @param adType 广告类型
 /// @param adPlaceID 广告ID
-/// @param adWidth 广告宽度
-/// @param adHeight 广告高度
-/// @param delegate 代理
-/// @param showView 广告展示界面（原生广告忽略，开屏不传则默认显示在window上）
-/// @param showRect 显示区域（原生广告忽略，开屏如果设置为（CGReactNull/CGRectZero）则默认为window大小））
 /// @param closebtn 是否显示关闭按钮（原生/开屏广告忽略）
+/// @param delegate 代理
 - (instancetype)initWithAdType:(JyAdType)adType
                        adPlaceID:(NSString *)adPlaceID
-                         adWidth:(int)adWidth
-                        adheight:(int)adHeight
-                        delegate:(id <JyAdManagerDelegate>)delegate
-                        showView:(nullable UIView *)showView
-                        showRect:(CGRect)showRect
-                        closebtn:(BOOL)closebtn;
+                        closebtn:(BOOL)closebtn
+                      delegate:(id <JyAdManagerDelegate>)delegate;
 
 /// 加载广告
 - (void)loadAd;
 
 /// 显示广告
-- (void)showAd;
+/// @param superView 显示界面（原生广告忽略）
+- (void)showAd:(nullable UIView *)superView;
 
 /// 关闭广告
 - (void)closeAd;
 
-/// 获取原生广告
-- (JyNative *)jyNative;
+/// 广告模型
+- (JyAdModel *)jyAdModel;
 
 @end
 

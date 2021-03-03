@@ -8,37 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		D04426F5AFE35B79095EB3A5 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E28F507D05DACEDA9EE9BA /* Pods_Example.framework */; };
-		D422F6E22594A5AA00CF4152 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D422F6E12594A5AA00CF4152 /* TestViewController.m */; };
-		D43F43BA2557FFF700C22284 /* TestNativeAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = D43F43AB2557FFF700C22284 /* TestNativeAdView.m */; };
-		D43F43BB2557FFF700C22284 /* TestNativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D43F43AC2557FFF700C22284 /* TestNativeAdView.xib */; };
-		D43F43BC2557FFF700C22284 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43F43AD2557FFF700C22284 /* LaunchScreen.storyboard */; };
-		D43F43BD2557FFF700C22284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43F43AF2557FFF700C22284 /* Main.storyboard */; };
-		D43F43BE2557FFF700C22284 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D43F43B12557FFF700C22284 /* AppDelegate.m */; };
-		D43F43BF2557FFF700C22284 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D43F43B32557FFF700C22284 /* TableViewController.m */; };
-		D43F43C02557FFF700C22284 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D43F43B52557FFF700C22284 /* main.m */; };
-		D43F43C12557FFF700C22284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43F43B62557FFF700C22284 /* Assets.xcassets */; };
-		D43F43C22557FFF700C22284 /* JyAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D43F43B92557FFF700C22284 /* JyAdViewController.m */; };
+		D4CF14EE25E6329B00C12F70 /* LibCAIDSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CF14DC25E6329B00C12F70 /* LibCAIDSDK.a */; };
+		D4CF14EF25E6329B00C12F70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4CF14E225E6329B00C12F70 /* Assets.xcassets */; };
+		D4CF14F025E6329B00C12F70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4CF14E425E6329B00C12F70 /* LaunchScreen.storyboard */; };
+		D4CF14F125E6329B00C12F70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4CF14E625E6329B00C12F70 /* Main.storyboard */; };
+		D4CF14F225E6329B00C12F70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CF14E825E6329B00C12F70 /* main.m */; };
+		D4CF14F325E6329B00C12F70 /* JyAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CF14E925E6329B00C12F70 /* JyAdViewController.m */; };
+		D4CF14F425E6329B00C12F70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CF14EA25E6329B00C12F70 /* AppDelegate.m */; };
+		D4CF14F525E6329B00C12F70 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CF14EB25E6329B00C12F70 /* TableViewController.m */; };
+		D4CF14F625E6329B00C12F70 /* TestNativeAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CF14EC25E6329B00C12F70 /* TestNativeAdView.m */; };
+		D4CF14F725E6329B00C12F70 /* TestNativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4CF14ED25E6329B00C12F70 /* TestNativeAdView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0FB721C42B19362556F82B81 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		AD45AA0C01BE748679AE65B0 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D3E28F507D05DACEDA9EE9BA /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D422F6E02594A5AA00CF4152 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		D422F6E12594A5AA00CF4152 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		D43F43AB2557FFF700C22284 /* TestNativeAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNativeAdView.m; sourceTree = "<group>"; };
-		D43F43AC2557FFF700C22284 /* TestNativeAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestNativeAdView.xib; sourceTree = "<group>"; };
-		D43F43AE2557FFF700C22284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D43F43B02557FFF700C22284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D43F43B12557FFF700C22284 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D43F43B22557FFF700C22284 /* JyAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JyAdViewController.h; sourceTree = "<group>"; };
-		D43F43B32557FFF700C22284 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
-		D43F43B42557FFF700C22284 /* TestNativeAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNativeAdView.h; sourceTree = "<group>"; };
-		D43F43B52557FFF700C22284 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D43F43B62557FFF700C22284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D43F43B72557FFF700C22284 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D43F43B82557FFF700C22284 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		D43F43B92557FFF700C22284 /* JyAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JyAdViewController.m; sourceTree = "<group>"; };
+		D4CF14DB25E6329B00C12F70 /* CAIDError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAIDError.h; sourceTree = "<group>"; };
+		D4CF14DC25E6329B00C12F70 /* LibCAIDSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = LibCAIDSDK.a; sourceTree = "<group>"; };
+		D4CF14DD25E6329B00C12F70 /* CAIDStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAIDStruct.h; sourceTree = "<group>"; };
+		D4CF14DE25E6329B00C12F70 /* CAID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAID.h; sourceTree = "<group>"; };
+		D4CF14DF25E6329B00C12F70 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4CF14E025E6329B00C12F70 /* JyAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JyAdViewController.h; sourceTree = "<group>"; };
+		D4CF14E125E6329B00C12F70 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		D4CF14E225E6329B00C12F70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4CF14E325E6329B00C12F70 /* TestNativeAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNativeAdView.h; sourceTree = "<group>"; };
+		D4CF14E525E6329B00C12F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4CF14E725E6329B00C12F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4CF14E825E6329B00C12F70 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4CF14E925E6329B00C12F70 /* JyAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JyAdViewController.m; sourceTree = "<group>"; };
+		D4CF14EA25E6329B00C12F70 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4CF14EB25E6329B00C12F70 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		D4CF14EC25E6329B00C12F70 /* TestNativeAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNativeAdView.m; sourceTree = "<group>"; };
+		D4CF14ED25E6329B00C12F70 /* TestNativeAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestNativeAdView.xib; sourceTree = "<group>"; };
 		D4EB8666253C816A00F5EF34 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EB86A0253C830E00F5EF34 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -49,6 +51,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D04426F5AFE35B79095EB3A5 /* Pods_Example.framework in Frameworks */,
+				D4CF14EE25E6329B00C12F70 /* LibCAIDSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,26 +66,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D43F43AA2557FFF700C22284 /* Source */ = {
+		D4CF14D925E6329B00C12F70 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				D43F43AD2557FFF700C22284 /* LaunchScreen.storyboard */,
-				D43F43AF2557FFF700C22284 /* Main.storyboard */,
-				D43F43B42557FFF700C22284 /* TestNativeAdView.h */,
-				D43F43AB2557FFF700C22284 /* TestNativeAdView.m */,
-				D43F43AC2557FFF700C22284 /* TestNativeAdView.xib */,
-				D43F43B52557FFF700C22284 /* main.m */,
-				D43F43B62557FFF700C22284 /* Assets.xcassets */,
-				D43F43B72557FFF700C22284 /* AppDelegate.h */,
-				D43F43B12557FFF700C22284 /* AppDelegate.m */,
-				D43F43B82557FFF700C22284 /* TableViewController.h */,
-				D43F43B32557FFF700C22284 /* TableViewController.m */,
-				D43F43B22557FFF700C22284 /* JyAdViewController.h */,
-				D43F43B92557FFF700C22284 /* JyAdViewController.m */,
-				D422F6E02594A5AA00CF4152 /* TestViewController.h */,
-				D422F6E12594A5AA00CF4152 /* TestViewController.m */,
+				D4CF14DA25E6329B00C12F70 /* CAID */,
+				D4CF14DF25E6329B00C12F70 /* AppDelegate.h */,
+				D4CF14EA25E6329B00C12F70 /* AppDelegate.m */,
+				D4CF14E225E6329B00C12F70 /* Assets.xcassets */,
+				D4CF14E425E6329B00C12F70 /* LaunchScreen.storyboard */,
+				D4CF14E625E6329B00C12F70 /* Main.storyboard */,
+				D4CF14E925E6329B00C12F70 /* JyAdViewController.m */,
+				D4CF14E025E6329B00C12F70 /* JyAdViewController.h */,
+				D4CF14E125E6329B00C12F70 /* TableViewController.h */,
+				D4CF14EB25E6329B00C12F70 /* TableViewController.m */,
+				D4CF14E325E6329B00C12F70 /* TestNativeAdView.h */,
+				D4CF14EC25E6329B00C12F70 /* TestNativeAdView.m */,
+				D4CF14ED25E6329B00C12F70 /* TestNativeAdView.xib */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		D4CF14DA25E6329B00C12F70 /* CAID */ = {
+			isa = PBXGroup;
+			children = (
+				D4CF14E825E6329B00C12F70 /* main.m */,
+				D4CF14DB25E6329B00C12F70 /* CAIDError.h */,
+				D4CF14DC25E6329B00C12F70 /* LibCAIDSDK.a */,
+				D4CF14DD25E6329B00C12F70 /* CAIDStruct.h */,
+				D4CF14DE25E6329B00C12F70 /* CAID.h */,
+			);
+			path = CAID;
 			sourceTree = "<group>";
 		};
 		D4EB865D253C816A00F5EF34 = {
@@ -106,7 +119,7 @@
 		D4EB8668253C816A00F5EF34 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				D43F43AA2557FFF700C22284 /* Source */,
+				D4CF14D925E6329B00C12F70 /* Source */,
 				D4EB86A0253C830E00F5EF34 /* Info.plist */,
 			);
 			path = Example;
@@ -179,10 +192,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D43F43BD2557FFF700C22284 /* Main.storyboard in Resources */,
-				D43F43BB2557FFF700C22284 /* TestNativeAdView.xib in Resources */,
-				D43F43C12557FFF700C22284 /* Assets.xcassets in Resources */,
-				D43F43BC2557FFF700C22284 /* LaunchScreen.storyboard in Resources */,
+				D4CF14F725E6329B00C12F70 /* TestNativeAdView.xib in Resources */,
+				D4CF14F125E6329B00C12F70 /* Main.storyboard in Resources */,
+				D4CF14EF25E6329B00C12F70 /* Assets.xcassets in Resources */,
+				D4CF14F025E6329B00C12F70 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,30 +248,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D422F6E22594A5AA00CF4152 /* TestViewController.m in Sources */,
-				D43F43BE2557FFF700C22284 /* AppDelegate.m in Sources */,
-				D43F43BF2557FFF700C22284 /* TableViewController.m in Sources */,
-				D43F43C02557FFF700C22284 /* main.m in Sources */,
-				D43F43BA2557FFF700C22284 /* TestNativeAdView.m in Sources */,
-				D43F43C22557FFF700C22284 /* JyAdViewController.m in Sources */,
+				D4CF14F325E6329B00C12F70 /* JyAdViewController.m in Sources */,
+				D4CF14F625E6329B00C12F70 /* TestNativeAdView.m in Sources */,
+				D4CF14F225E6329B00C12F70 /* main.m in Sources */,
+				D4CF14F425E6329B00C12F70 /* AppDelegate.m in Sources */,
+				D4CF14F525E6329B00C12F70 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D43F43AD2557FFF700C22284 /* LaunchScreen.storyboard */ = {
+		D4CF14E425E6329B00C12F70 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D43F43AE2557FFF700C22284 /* Base */,
+				D4CF14E525E6329B00C12F70 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		D43F43AF2557FFF700C22284 /* Main.storyboard */ = {
+		D4CF14E625E6329B00C12F70 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D43F43B02557FFF700C22284 /* Base */,
+				D4CF14E725E6329B00C12F70 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -386,15 +398,24 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6A6Q878SMH;
+				EXCLUDED_ARCHS = "$(inherited)";
 				INFOPLIST_FILE = Example/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Example",
+					"$(PROJECT_DIR)/Example/CAID",
+					"$(PROJECT_DIR)/Example/Source",
+					"$(PROJECT_DIR)/Example/Source/CAID",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jy.Exampleaa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Debug;
 		};
@@ -406,15 +427,25 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6A6Q878SMH;
+				EXCLUDED_ARCHS = "$(inherited)";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited)";
 				INFOPLIST_FILE = Example/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Example",
+					"$(PROJECT_DIR)/Example/CAID",
+					"$(PROJECT_DIR)/Example/Source",
+					"$(PROJECT_DIR)/Example/Source/CAID",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jy.Exampleaa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Release;
 		};

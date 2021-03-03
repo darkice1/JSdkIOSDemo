@@ -19,15 +19,13 @@
 
 @implementation TestNativeAdView
 
-/// 显示广告
-/// @param native 自渲染广告
-- (void)showAd:(JyNative *)native {
-    if (native.adModel.isVideo) {
-        [self showVideoPalyer:native.adModel.adURL];
+- (void)showAdWithManager:(JyAdManager *)manager {
+    [super showAdWithManager:manager];
+    if (manager.jyAdModel.isVideo) {
+        [self showVideoPalyer:manager.jyAdModel.adURL];
     } else {
-        [self.adImageView sd_setImageWithURL:[NSURL URLWithString:native.adModel.adURL]];
+        [self showImage:manager.jyAdModel.adURL];
     }
-    [super showAd:native];
 }
 
 - (void)showVideoPalyer:(NSString *)path {
@@ -39,12 +37,10 @@
     [player play];
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (void)showImage:(NSString *)path {
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:self.bounds];
+    [imageView sd_setImageWithURL:[NSURL URLWithString:path]];
+    [self addSubview:imageView];
 }
-*/
 
 @end
